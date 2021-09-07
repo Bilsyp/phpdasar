@@ -16,7 +16,6 @@ class Car {
    return "My car is a ".$this->color. " ". $this->model }
 }
 $myCar = new Car('black','toyota');
-sqlite_err
 echo $myCar -> message();
 var_dump($myCar);
 ?>
